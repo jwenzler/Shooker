@@ -23,14 +23,17 @@ For this page note the following fields:
 ```php
     //Initialize class with the token from Slack
     $shkr = new Shooker('Q7TWi2PP7hHksj7o5aGnZ9QA');
+
     //Add a trigger based on keyword "test"
-$testTrigger = $shkr->addTrigger("test");
-//When this trigger is hit, perform this function
-$testTrigger->addAction(function($paramString, $user, $channel){
-    return "params: ".$paramString." user: ".$user." channel: ".$channel;
-});
-//This function is required to listen for triggers within Slack client, make sure to call after all triggers are added
-$shkr->listen();
+    $testTrigger = $shkr->addTrigger("test");
+
+    //When this trigger is hit, perform this function
+    $testTrigger->addAction(function($paramString, $user, $channel){
+        return "params: ".$paramString." user: ".$user." channel: ".$channel;
+    });
+
+    //This function is required to listen for triggers within Slack client, make sure to call after all triggers are added
+    $shkr->listen();
 ```
 
 <h2>THAT'S IT!</h2> 

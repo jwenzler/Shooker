@@ -20,10 +20,10 @@ For this page note the following fields:
 <h3>Setup within PHP</h3>
 
 <p>Just include the main class file and then set up Shooker like so:</p>
-<code>
-//Initialize class with the token from Slack
-$shkr = new Shooker('Q7TWi2PP7hHksj7o5aGnZ9QA');
-//Add a trigger based on keyword "test"
+```php
+    //Initialize class with the token from Slack
+    $shkr = new Shooker('Q7TWi2PP7hHksj7o5aGnZ9QA');
+    //Add a trigger based on keyword "test"
 $testTrigger = $shkr->addTrigger("test");
 //When this trigger is hit, perform this function
 $testTrigger->addAction(function($paramString, $user, $channel){
@@ -31,6 +31,6 @@ $testTrigger->addAction(function($paramString, $user, $channel){
 });
 //This function is required to listen for triggers within Slack client, make sure to call after all triggers are added
 $shkr->listen();
-</code>
+```
 
 <h2>THAT'S IT!</h2> 

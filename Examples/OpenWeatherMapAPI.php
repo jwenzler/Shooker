@@ -9,6 +9,12 @@
 	 *     https://github.com/jwenzler/Shooker
 	 * 
 	 ------------------------------------------------------------------------*/
+	 function ktotemps($k) {
+		$obj = new stdClass;
+		$obj->celsius = $k-273.15;
+		$obj->fahrenheit = ($obj->celsius*9/5)+32;
+		return $obj;
+	}
 	 
 	$testTrigger = $shkr->addTrigger("weather");
 	$testTrigger->addAction(function($paramString, $user, $channel){

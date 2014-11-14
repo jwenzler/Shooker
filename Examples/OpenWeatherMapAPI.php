@@ -9,6 +9,7 @@
 	 *     https://github.com/jwenzler/Shooker
 	 * 
 	 ------------------------------------------------------------------------*/
+	 
 	 function ktotemps($k) {
 		$obj = new stdClass;
 		$obj->celsius = $k-273.15;

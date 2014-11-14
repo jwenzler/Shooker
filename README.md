@@ -2,7 +2,7 @@
 
 <h2>Example for the TLDR crowd</h2>
 
-![alt example](http://i.imgur.com/mJthpJZ.png)
+![alt example](http://i.imgur.com/L1LKPzQ.png)
 
 <h3>Setup on Slack</h3>
 Navigate to https://TEAMNAME.slack.com/services/new</a> and choose to add a new outgoing WebHook.  

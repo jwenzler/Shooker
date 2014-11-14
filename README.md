@@ -3,6 +3,7 @@
 <h2>Example for the TLDR crowd</h2>
 
 <h3>Setup on Slack</h3>
+Navigate to https://TEAMNAME.slack.com/services/new</a> and choose to add a new outgoing WebHook.  
 
 For this page note the following fields:
 
@@ -20,19 +21,19 @@ For this page note the following fields:
 
 <p>Just include the main class file and then set up Shooker like so:</p>
 ```php
-    //Initialize class with the token from Slack
-    $shkr = new Shooker('Q7TWi2PP7hHksj7o5aGnZ9QA');
+//Initialize class with the token from Slack
+$shkr = new Shooker('Q7TWi2PP7hHksj7o5aGnZ9QA');
 
-    //Add a trigger based on keyword "test"
-    $testTrigger = $shkr->addTrigger("test");
+//Add a trigger based on keyword "test"
+$testTrigger = $shkr->addTrigger("test");
 
-    //When this trigger is hit, perform this function
-    $testTrigger->addAction(function($paramString, $user, $channel){
-        return "params: ".$paramString." user: ".$user." channel: ".$channel;
-    });
+//When this trigger is hit, perform this function
+$testTrigger->addAction(function($paramString, $user, $channel){
+return "params: ".$paramString." user: ".$user." channel: ".$channel;
+});
 
-    //This function is required to listen for triggers within Slack client, make sure to call after all triggers are added
-    $shkr->listen();
+//This function is required to listen for triggers within Slack client, make sure to call after all triggers are added
+$shkr->listen();
 ```
 
 <h2>THAT'S IT!</h2> 

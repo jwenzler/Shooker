@@ -1,6 +1,13 @@
 <?php
-	
-	//Slack webhooks made incredibly easy
+	/*------------------------------------------------------------------------
+	 *  shooker.php
+	 *  Created by: John Wenzler (nnullandvoidd@gmail.com)
+	 *  Available under the MIT License
+	 *  FOR MORE INFO AND EXAMPLES, VISIT:
+	 *     https://github.com/jwenzler/Shooker
+	 * 
+	 ------------------------------------------------------------------------*/
+
 	class Shooker {
 		
 		//No error by default

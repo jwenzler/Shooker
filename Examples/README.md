@@ -1,5 +1,5 @@
 <h1>Examples using Shooker</h1>
-<h3><a href="https://github.com/jwenzler/Shooker"/>Get Shooker HERE</h3>
+<h3><a href="https://github.com/jwenzler/Shooker"/>Get Shooker HERE</a></h3>
 
 <h2>Slack & OpenWeatherMap API</h2>
 ![alt example](http://i.imgur.com/SAblq68.png)

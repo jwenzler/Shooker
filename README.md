@@ -1,5 +1,8 @@
 <h1>Shooker - Slack WebHooks made crazy simple</h1>
 
+<h2>Examples</h2>
+<a href="https://github.com/jwenzler/Shooker/tree/master/Examples">Examples here with source code</a>
+
 <h2>Example for the TLDR crowd</h2>
 
 ![alt example](http://i.imgur.com/L1LKPzQ.png)

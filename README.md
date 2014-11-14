@@ -3,7 +3,6 @@
 <h2>Example for the TLDR crowd</h2>
 
 <h3>Setup on Slack</h3>
-Navigate to <a href="https://eacllc.slack.com/services/new">https://eacllc.slack.com/services/new</a> and choose to add a new outgoing WebHook.  
 
 For this page note the following fields:
 

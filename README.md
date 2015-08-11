@@ -1,7 +1,11 @@
 <h1>Shooker - Slack WebHooks made crazy simple</h1>
 
+<h2>Tutorial and Source Explanation</h2>
+<a href="http://devopsr.com/simple-slack-webhooks-in-php/">http://devopsr.com/simple-slack-webhooks-in-php/</a>
+
 <h2>Examples</h2>
-<a href="https://github.com/jwenzler/Shooker/tree/master/Examples">Examples here with source code &raquo;</a>
+<a href="http://devopsr.com/connecting-slack-to-an-api-speak-like-yoda-you-will/">Yoda Translator</a>
+<a href="https://github.com/jwenzler/Shooker/tree/master/Examples">More examples here with source code &raquo;</a>
 
 <h2>Example for the TLDR crowd</h2>
 

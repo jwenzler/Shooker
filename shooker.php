@@ -56,8 +56,6 @@
 			$firstWord = explode(" ",$inText);
 			$firstWord = $firstWord[0];
 			
-			$inText = substr($inText, strlen($firstWord)+1);
-	
 			if (isset($this->triggers->{$firstWord})) {
 				
 				//Retrieve the trigger

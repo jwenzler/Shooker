@@ -7,7 +7,7 @@
 
 <h3>Setup on Slack</h3>
 
-<h4>Incoming<h4>
+<h4>Incoming</h4>
 
 Navigate to https://TEAMNAME.slack.com/services/new</a> and choose to add a new incoming WebHook.  
 

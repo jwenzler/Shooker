@@ -3,11 +3,7 @@
 <h2>Tutorial and Source Explanation</h2>
 <a href="http://devopsr.com/simple-slack-webhooks-in-php/">http://devopsr.com/simple-slack-webhooks-in-php/</a>
 
-<h2>Examples</h2>
-<a href="http://devopsr.com/connecting-slack-to-an-api-speak-like-yoda-you-will/">Yoda Translator</a><br/>
-<a href="https://github.com/jwenzler/Shooker/tree/master/Examples">More examples here with source code &raquo;</a>
-
-<h1>Incoming & Outgoing Webhooks are now supporte!</h1>
+<h1>Incoming & Outgoing Webhooks are now supported!</h1>
 
 <h3>Setup on Slack</h3>
 
@@ -15,7 +11,7 @@
 
 Navigate to https://TEAMNAME.slack.com/services/new</a> and choose to add a new incoming WebHook.  
 
-You only really need the `Webhook URL` but feel free to adjust the default username and image.
+You only really need the <b>Webhook URL</b> but feel free to adjust the default username and image.
 
 
 <h4>Outgoing</h4>
@@ -69,5 +65,9 @@ return "params: ".$paramString." user: ".$user." channel: ".$channel;
 //This function is required to listen for triggers within Slack client, make sure to call after all triggers are added
 $shkr->listen();
 ```
+
+<h2>Examples</h2>
+<a href="http://devopsr.com/connecting-slack-to-an-api-speak-like-yoda-you-will/">Yoda Translator</a><br/>
+<a href="https://github.com/jwenzler/Shooker/tree/master/Examples">More examples here with source code &raquo;</a>
 
 <h2>THAT'S IT!</h2> 

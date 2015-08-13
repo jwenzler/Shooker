@@ -1,7 +1,5 @@
 <h1>Shooker - Slack WebHooks made crazy simple</h1>
 
-<h2>Shooker now supports INCOMING and OUTGOING webhooks!</h2>
-
 <h2>Tutorial and Source Explanation</h2>
 <a href="http://devopsr.com/simple-slack-webhooks-in-php/">http://devopsr.com/simple-slack-webhooks-in-php/</a>
 
@@ -9,15 +7,12 @@
 <a href="http://devopsr.com/connecting-slack-to-an-api-speak-like-yoda-you-will/">Yoda Translator</a><br/>
 <a href="https://github.com/jwenzler/Shooker/tree/master/Examples">More examples here with source code &raquo;</a>
 
+<h2>Example for the TLDR crowd</h2>
+
+![alt example](http://i.imgur.com/L1LKPzQ.png)
 
 <h3>Setup on Slack</h3>
-
-<h4>Incoming Webhooks</h3>
-
-<h4>Outgoing Webhooks</h3>
-
 Navigate to https://TEAMNAME.slack.com/services/new</a> and choose to add a new outgoing WebHook.  
-![alt example](http://i.imgur.com/L1LKPzQ.png)
 
 For this page note the following fields:
 
@@ -34,11 +29,24 @@ For this page note the following fields:
 <h3>Setup within PHP</h3>
 
 <p>Just include the main class file and then set up Shooker like so:</p>
+
+<h4>Incoming</h4>
 ```php
 //Initialize class with the token from Slack
 $shkr = new Shooker();
 
-$shkr->setupOutgoing('Q7TWi2PP7hHksj7o5aGnZ9QA');
+$shkr->setupIncoming('<YOUR WEBHOOK URL HERE>');
+
+//Send a message (message, username, emoji)
+$shkr->sendMessage("Your message here", "Mr. Bot", ":ballot_box_with_check:"); 
+```
+
+<h4>Outgoing</h4>
+```php
+//Initialize class with the token from Slack
+$shkr = new Shooker();
+
+$shkr->setupOutgoing('<YOUR TOKEN HERE>');
 
 //Add a trigger based on keyword "test"
 $testTrigger = $shkr->addTrigger("test");

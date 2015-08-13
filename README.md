@@ -7,11 +7,21 @@
 <a href="http://devopsr.com/connecting-slack-to-an-api-speak-like-yoda-you-will/">Yoda Translator</a><br/>
 <a href="https://github.com/jwenzler/Shooker/tree/master/Examples">More examples here with source code &raquo;</a>
 
-<h2>Example for the TLDR crowd</h2>
+<h1>Incoming & Outgoing Webhooks are now supporte!</h1>
+
+<h3>Setup on Slack</h3>
+
+<h4>Incoming<h4>
+
+Navigate to https://TEAMNAME.slack.com/services/new</a> and choose to add a new incoming WebHook.  
+
+You only really need the `Webhook URL` but feel free to adjust the default username and image.
+
+
+<h4>Outgoing</h4>
 
 ![alt example](http://i.imgur.com/L1LKPzQ.png)
 
-<h3>Setup on Slack</h3>
 Navigate to https://TEAMNAME.slack.com/services/new</a> and choose to add a new outgoing WebHook.  
 
 For this page note the following fields:

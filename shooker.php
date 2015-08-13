@@ -65,7 +65,7 @@ class Shooker {
         'content' => json_encode($data)
       )
     );
-    print_r($options);
+
     $context  = stream_context_create($options);
     $result = file_get_contents($this->incomingURL, false, $context);
     

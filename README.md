@@ -1,5 +1,7 @@
 <h1>Shooker - Slack WebHooks made crazy simple</h1>
 
+<h2>Shooker now supports INCOMING and OUTGOING webhooks!</h2>
+
 <h2>Tutorial and Source Explanation</h2>
 <a href="http://devopsr.com/simple-slack-webhooks-in-php/">http://devopsr.com/simple-slack-webhooks-in-php/</a>
 
@@ -7,12 +9,15 @@
 <a href="http://devopsr.com/connecting-slack-to-an-api-speak-like-yoda-you-will/">Yoda Translator</a><br/>
 <a href="https://github.com/jwenzler/Shooker/tree/master/Examples">More examples here with source code &raquo;</a>
 
-<h2>Example for the TLDR crowd</h2>
-
-![alt example](http://i.imgur.com/L1LKPzQ.png)
 
 <h3>Setup on Slack</h3>
+
+<h4>Incoming Webhooks</h3>
+
+<h4>Outgoing Webhooks</h3>
+
 Navigate to https://TEAMNAME.slack.com/services/new</a> and choose to add a new outgoing WebHook.  
+![alt example](http://i.imgur.com/L1LKPzQ.png)
 
 For this page note the following fields:
 

@@ -31,7 +31,9 @@ For this page note the following fields:
 <p>Just include the main class file and then set up Shooker like so:</p>
 ```php
 //Initialize class with the token from Slack
-$shkr = new Shooker('Q7TWi2PP7hHksj7o5aGnZ9QA');
+$shkr = new Shooker();
+
+$shkr->setupOutgoing('Q7TWi2PP7hHksj7o5aGnZ9QA');
 
 //Add a trigger based on keyword "test"
 $testTrigger = $shkr->addTrigger("test");

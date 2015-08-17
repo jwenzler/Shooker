@@ -26,17 +26,16 @@ class Shooker {
   //Trigger array
   private $triggers;
   
-    function __constructNoToken() {
-      $this->triggers = new stdClass;
-    } 
-  
-  
-  function setupOutgoing($token) {
-    $this->token = $token;
-  }
+  function __constructNoToken() {
+    $this->triggers = new stdClass;
+  } 
   
   function setupIncoming($incomingURL) {
     $this->incomingURL = $incomingURL;
+  }
+  
+  function setupOutgoing($token) {
+    $this->token = $token;
   }
   
   function addTrigger($triggerWord) {

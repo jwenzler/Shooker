@@ -64,7 +64,6 @@ $shkr->listen();
 ```
 
 <h2>Examples</h2>
-<a href="http://devopsr.com/connecting-slack-to-an-api-speak-like-yoda-you-will/">Yoda Translator</a><br/>
 <a href="https://github.com/jwenzler/Shooker/tree/master/Examples">More examples here with source code &raquo;</a>
 
 <h2>THAT'S IT!</h2> 

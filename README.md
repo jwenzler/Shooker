@@ -1,8 +1,5 @@
 <h1>Shooker - Slack WebHooks made crazy simple</h1>
 
-<h2>Tutorial and Source Explanation</h2>
-<a href="http://devopsr.com/simple-slack-webhooks-in-php/">http://devopsr.com/simple-slack-webhooks-in-php/</a>
-
 <h1>Incoming & Outgoing Webhooks are now supported!</h1>
 
 <h3>Setup on Slack</h3>
